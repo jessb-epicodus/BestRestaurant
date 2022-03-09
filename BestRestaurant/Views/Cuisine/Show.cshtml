@@ -1,0 +1,13 @@
+@{Layout = "_Layout";}
+
+@using BestRestaurant.Models;
+
+<h3>Here are all the restaurants in this cuisine:</h3><hr>
+<ol>
+@foreach (Restaurant restaurant in @Model["restaurants"]) {
+  <li><a href='/cuisines/@Model["cuisine"].Id/restaurants/@restaurant.RestaurantId'>@restaurant.Name</a></li>
+}
+</ol>
+<p><a href='/cuisines/@Model["cuisine"].Id/restaurants/new'>Add a new restaurant</a></p>
+<p><a href='/cuisines'>Return to Cuisine list</a></p>
+<p><a href='/'>Return to Main Page</a></p>
