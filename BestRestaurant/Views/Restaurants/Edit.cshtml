@@ -1,8 +1,8 @@
 @{Layout = "_Layout";}
 
 @model BestRestaurant.Models.Restaurant
-<h2>Edit</h2>
-<h4>Edit this task: @Html.DisplayFor(model => model.Name)</h4>
+<h2>Edit</h2><hr>
+<h4>Edit this Restaurant: @Html.DisplayFor(model => model.Name)</h4>
 @using (Html.BeginForm()) {
   @Html.HiddenFor(model => model.RestaurantId)
   @Html.LabelFor(model => model.Name)

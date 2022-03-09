@@ -3,7 +3,8 @@
 @model BestRestaurant.Models.Restaurant
 <h4>Add a new restaurant</h4>
 <!-- helper method form -->
-@using (Html.BeginForm()) {
+@using (Html.BeginForm()) 
+{
   @Html.LabelFor(model => model.Name)
   @Html.TextBoxFor(model => model.Name)
   @Html.LabelFor(model => model.Location)

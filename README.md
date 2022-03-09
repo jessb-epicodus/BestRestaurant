@@ -50,3 +50,5 @@ Copyright (c) _Mar 2022_ _Jessi Baker | William Jameson | Brenna Lavin_
 
 _If you run into any issues or have questions, ideas or concerns or wish to make a contribution to the code see contact information below._
 * Jessi Baker <jessb.epicodus@gmail.com>
+* William Jameson <williamjameson90@gmail.com>
+* Brenna Lavin <lavinbrenna@gmail.com>
