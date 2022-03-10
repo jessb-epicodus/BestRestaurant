@@ -29,6 +29,7 @@ namespace BestRestaurant.Controllers {
     // GET request-find a specific restaurant and then pass it to the view
     public ActionResult Details(int id) {
       Cuisine thisCuisine = _db.Cuisines.FirstOrDefault(cuisine => cuisine.CuisineId == id);
+      
       return View(thisCuisine);
     }
     // GET 

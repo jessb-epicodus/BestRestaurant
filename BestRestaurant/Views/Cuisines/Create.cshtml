@@ -8,7 +8,8 @@
 @using (Html.BeginForm())
 {
   @Html.LabelFor(model => model.Type)
-  @Html.TextBoxFor(model => model.Type)
+  @Html.TextBoxFor(model => model.Type, new { @class = "form-control", placeholder = "Cuisine type", required="required"})
   <input type="submit" value="Add new cuisine" />
-}
+}<br>
 <p>@Html.ActionLink("Show cuisines", "Index")</p>
+
